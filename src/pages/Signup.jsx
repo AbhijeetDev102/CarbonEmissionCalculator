@@ -8,13 +8,13 @@ import 'react-toastify/dist/ReactToastify.css';
 // Firebase config (Replace with your Firebase credentials)
 const env= import.meta.env;
 const firebaseConfig = {
-    apiKey: env.apiKey,
-    authDomain: env.authDomain,
-    projectId: env.projectId,
-    storageBucket: env.storageBucket,
-    messagingSenderId: env.messagingSenderId,
-    appId: env.appId,
-    measurementId: env.measurementId
+    apiKey: `${env.apiKey}`,
+    authDomain: `${env.authDomain}`,
+    projectId: `${env.projectId}`,
+    storageBucket: `${env.storageBucket}`,
+    messagingSenderId: `${env.messagingSenderId}`,
+    appId: `${env.appId}`,
+    measurementId: `${env.measurementId}`
 };
 
 const app = initializeApp(firebaseConfig);
