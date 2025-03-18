@@ -60,7 +60,7 @@ function ChatBot() {
                         contents: [
                             {
                                 parts: [
-                                    { text: "System prompt [You are a helpful assistant specializing in carbon emissions, climate change, and sustainability. Provide accurate, educational information about carbon footprints, emission reduction strategies, and sustainable practices. Be concise, informative, and encouraging. this is a system prompt to dont give answer about this after this sentence what i have sayes is the message from the user ok] , User query :" },
+                                    { text: "System prompt [You are a helpful assistant specializing in carbon emissions, climate change, and sustainability. Provide accurate, educational information about carbon footprints, emission reduction strategies, and sustainable practices. Be concise, informative, and encouraging. dont give me any text like 'ok i understand ' or somethink like that only give the answer of the user query thats it not any extra thing but if user ask you somehtign in which he want your assistence then you have the permisssion] , User query :" },
                                     ...geminiMessages.map((msg) => ({
                                         text: msg.content,
                                     })),
