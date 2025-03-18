@@ -32,6 +32,7 @@ export default function Navbar() {
             <li onClick={()=>navigate('/')} className="text-gray-600 cursor-pointer  hover:text-gray-900">Home</li>
             <li onClick={()=>navigate('/solution')} className="text-gray-600 cursor-pointer  hover:text-gray-900">Solution</li>
             <li onClick={()=>navigate('/calculator')} className="text-gray-600  cursor-pointer hover:text-gray-900">Calculator</li>
+            <li onClick={()=>navigate('/chatbot')} className="text-gray-600  cursor-pointer hover:text-gray-900">Green Grow AI</li>
             
           </ul>
 
